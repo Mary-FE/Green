@@ -1,0 +1,35 @@
+:root {
+    --text-color__button: #454545;
+    --text-color__light: #eee;
+
+    --background-hover__dark: #3c3c4b;
+/* =================================== */
+    /* Font */
+    --font-family__main: 'Open Sans', sans-serif;
+    --font-family__icon: 'Icon Font';
+   
+    --layout__width: 1200px;
+       
+    --h1-font__desktop: 700 72px/1.1 var(--font-family__main);
+   /* ========================================================= */
+   
+    /* Icon */
+    --icon-menu: '\e900';
+    --icon-tree: '\e901';
+    --icon-leaf: '\e902';
+    --icon-organic: '\e903';
+    --icon-quote: '\e904';
+    --icon-sun: '\e905';
+    --icon-drop: '\e906';
+    --icon-turbines: '\e907';
+    --icon-electric: '\e908';
+    
+    --icon-facebook: '\e909';
+    --icon-twitter: '\e90a';
+    --icon-instagram: '\e90b';
+    --icon-linkedin: '\e90c';
+    
+    /* ================================= */
+    --common-animation: all ease .3s;
+    /* ==================================== */
+}
