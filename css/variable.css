@@ -1,8 +1,11 @@
 :root {
     --text-color__button: #454545;
     --text-color__light: #eee;
+    --text-color__bold:  #00af46;
+    --text-color__link: green;
 
     --background-hover__dark: #3c3c4b;
+    --background-color__block: #2d2d4a;
 /* =================================== */
     /* Font */
     --font-family__main: 'Open Sans', sans-serif;

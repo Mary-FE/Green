@@ -44,7 +44,7 @@ body {
 
 /* Icons */
 .icon { position: relative; }
-.icon:before { font-family: var(--font-family__icon); }
+.icon:before { font-family: var(--font-family__icon); font-size: 24px; }
 
 /* results */
 ._menu:before    { content: var(--icon-menu); }
@@ -61,15 +61,15 @@ body {
 /* Links */
 a,
 a:before {
-    color: inherit;
+    color: var(--text-color__bold);
     font-weight: 400;
     text-decoration: none;
 
     transition: var(--common-animation);
 }
 
-a:hover {
-    color: var(--text-color__light);
+a:hover:before {
+    color: var(--text-color__link);
 }
 /* ===================================== */
 

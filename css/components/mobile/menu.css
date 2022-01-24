@@ -1,0 +1,18 @@
+.menu .logo {
+    width: 70px;
+}
+
+.menu {
+    background-color: var(--background-color__block);
+}
+
+.menu .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.menu .icon:before {
+    line-height: 1;
+}
