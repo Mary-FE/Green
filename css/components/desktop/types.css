@@ -1,0 +1,12 @@
+.types .item:before {
+    padding: 15px;
+    font-size: 30px;
+}
+
+.types .name {
+    font-size: 25px;
+}
+
+.types .item {
+    padding: 35px 0;
+}

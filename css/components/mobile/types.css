@@ -1,0 +1,37 @@
+.types {
+    background-color: var(--background-color__block);
+}
+
+.types .box {
+    display: grid;
+    grid-gap: 15px;
+}
+
+/* Three blocks */
+.types .item {
+    height: 180px;
+    padding: 20px 15px;
+    text-align: center;
+    background-color: var(--background-color__block-types);
+    transform: translate(0px, -40px);
+}
+
+.types .text {
+    margin-top: 10px;
+    font: italic 10px Open Sans;
+}
+
+.types .name {
+    display: block;
+    margin-top: 10px;
+    color: var(--text-color__bold);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.types .item:before {
+    padding: 8px;
+    color: var(--text-color__light);
+    background-color: var(--text-color__bold);
+    border-radius: 50%;
+}

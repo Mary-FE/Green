@@ -76,5 +76,5 @@ a:hover:before {
 .box {
     max-width: var(--layout__width);
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 30px;
 }

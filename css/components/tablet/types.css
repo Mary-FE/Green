@@ -1,0 +1,19 @@
+.types .box {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.types .name {
+    margin-top: 20px;
+}
+
+.types .item {
+    height: 115%;
+}
+
+.types .text {
+    font: italic 15px Open Sans;
+}
+
+.types {
+    padding-bottom: 50px;
+}
