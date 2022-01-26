@@ -1,0 +1,9 @@
+.presentation .text {
+    max-width: 450px;
+    font-size: 20px;
+}
+
+.presentation .cleaner {
+    max-width: 270px;
+    font-size: 30px;
+}
