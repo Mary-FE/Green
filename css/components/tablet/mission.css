@@ -1,0 +1,19 @@
+.mission .background {
+    width: 70%;
+    height: 300px;
+    margin-top: 45px;
+}
+
+.mission .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.mission img {
+    height: 350px;
+}
+
+.mission .name {
+    bottom: 80px;
+}

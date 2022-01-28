@@ -68,8 +68,6 @@ a,
 a:before {
     color: var(--text-color__bold);
     font-weight: 400;
-    text-decoration: none;
-
     transition: var(--common-animation);
 }
 

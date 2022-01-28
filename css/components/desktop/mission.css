@@ -1,0 +1,16 @@
+.mission .background {
+    height: 330px;
+}
+
+.mission img {
+    height: 450px;
+}
+
+.mission .title {
+    font-size: 45px;
+}
+
+.mission .section {
+    max-width: 370px;
+    font-size: 20px;
+}
