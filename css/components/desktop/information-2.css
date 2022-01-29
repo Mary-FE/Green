@@ -1,0 +1,16 @@
+.information-2 .title {
+    font: bold 45px Open Sans;
+    line-height: 1.2;
+}
+
+.information-2 img {
+    height: 540px;
+}
+
+.information-2 .text {
+    max-width: 360px;
+}
+
+.information-2 .box {
+    padding: 30px 50px;
+}
