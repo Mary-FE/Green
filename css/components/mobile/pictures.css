@@ -1,0 +1,27 @@
+.pictures .title {
+    color: var(--background-color__block);
+    font: bold 35px Open Sans;
+    line-height: 1.2;
+}
+
+.pictures .box {
+    text-align: center;
+}
+
+.pictures .image {
+    margin: 40px 0;
+}
+
+.pictures .line {
+    width: 80px;
+    height: 13px;
+    margin: 20px 0;
+}
+
+.pictures .text {
+    font-size: 14px;
+}
+
+.pictures button {
+    margin-bottom: 30px;
+}

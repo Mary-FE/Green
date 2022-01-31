@@ -1,0 +1,16 @@
+.pictures .image {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pictures .image img {
+    height: 100%;
+    object-fit: cover;
+    min-height: 310px;
+}
+
+.pictures button {
+    padding: 10px 50px;
+    font: 18px/1.3 var(--font-family__main);
+}

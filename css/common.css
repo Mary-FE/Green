@@ -35,6 +35,7 @@ body {
     text-decoration: none;
 
     border-radius: 50px;
+    border: 0;
     background-color: var(--text-color__button);
     
     cursor: pointer;
