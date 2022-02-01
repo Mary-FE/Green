@@ -1,0 +1,42 @@
+.description .box {
+    display: grid;
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.description .number {
+    display: inline-block;
+    margin: 15px 0;
+    color: var(--text-color__bold);
+    font: bold 25px Open Sans;
+    letter-spacing: 1.2px;
+}
+
+.description .item {
+    height: 100%;
+    padding: 20px 15px;
+    text-align: center;
+    background-color: var(--background-color__block-light);
+}
+
+.description .item:before {
+    display: block;
+    color: var(--text-color__bold);
+    font-size: 30px
+}
+
+.description {
+    position: relative;
+    padding: 40px 0;
+    background-image: linear-gradient( 0deg, rgba(45,45,74,0.9), rgba(45,45,74,0.9)), url(../../../img/grape.jpg);
+}
+
+.description:before {
+    content: "" ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 170px;
+    background-image: linear-gradient(#6ac17d, #9bf194);
+}
