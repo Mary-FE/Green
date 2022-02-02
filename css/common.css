@@ -57,8 +57,7 @@ body {
 .icon { position: relative; }
 .icon:before { font-family: var(--font-family__icon); font-size: 24px; }
 
-/* results */
-._menu:before    { content: var(--icon-menu); }
+._menu:before    { content: var(--icon-menu); color: var(--text-color__bold); }
 ._tree:before    { content: var(--icon-tree); }
 ._leaf:before   { content: var(--icon-leaf); }
 ._organic:before   { content: var(--icon-organic); }
@@ -67,14 +66,20 @@ body {
 ._drop:before  { content: var(--icon-drop); }
 ._turbines:before  { content: var(--icon-turbines); }
 ._electric:before  { content: var(--icon-electric); }
+
+._facebook:before  { content: var(--icon-facebook); color: var(--text-color__light) }
+._twitter:before  { content: var(--icon-twitter); color: var(--text-color__light) }
+._instagram:before  { content: var(--icon-instagram); color: var(--text-color__light) }
+._linkedin:before  { content: var(--icon-linkedin); color: var(--text-color__light) }
+
 /* ==================================================== */
 
 /* Links */
 a,
 a:before {
-    color: var(--text-color__bold);
     font-weight: 400;
     transition: var(--common-animation);
+    cursor: pointer;
 }
 
 a:hover:before {
