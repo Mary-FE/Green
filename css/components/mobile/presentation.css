@@ -1,6 +1,7 @@
 .presentation .cleaner {
-    max-width: 185px;
-    padding-top: 30px;
+    max-width: 235px;
+    margin-bottom: 15px;
+    padding-top: 0;
     color: var(--background-color__block);
     font: 500 25px Open Sans;
 }

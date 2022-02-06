@@ -2,11 +2,6 @@
     font: bold 40px Open Sans;
 }
 
-.pictures .line {
-    width: 100px;
-    height: 15px;
-}
-
 .pictures .text {
     max-width: 520px;
     margin: 0 auto;

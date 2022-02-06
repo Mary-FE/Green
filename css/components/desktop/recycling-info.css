@@ -1,0 +1,16 @@
+.recycling-info .box {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.recycling-info .backdrop-wrapper:nth-child(3) {
+    grid-column: auto;
+    grid-template-columns: 1fr;
+}
+
+.recycling-info .group .name {
+    font-size: 25px;
+}
+
+.recycling-info .group .text {
+    font-size: 20px;
+}

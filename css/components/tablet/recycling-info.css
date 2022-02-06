@@ -1,0 +1,14 @@
+.recycling-info .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.recycling-info .backdrop-wrapper {
+    grid-template-columns: 1fr;
+}
+
+.recycling-info .backdrop-wrapper:nth-child(3) {
+    display: grid;
+    grid-column: 1/3;
+    grid-template-columns: 1fr 1fr;
+}

@@ -1,19 +1,14 @@
-.mission .background {
-    width: 70%;
-    height: 300px;
-    margin-top: 45px;
+.mission .backdrop {
+    transform: translateX(30px);
 }
 
 .mission .box {
     display: grid;
+    grid-gap: 0;
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
-.mission img {
-    height: 350px;
-}
-
-.mission .name {
-    bottom: 80px;
+.mission .text {
+    padding-left: 80px;
 }

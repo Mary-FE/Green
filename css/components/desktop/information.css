@@ -1,0 +1,9 @@
+.information .box {
+    max-width: calc(var(--layout__width) / 2);
+    margin: 0;
+    padding: 60px;
+}
+
+.information._grass .box {
+    margin-left: auto;
+}

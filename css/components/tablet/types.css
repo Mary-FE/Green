@@ -7,11 +7,11 @@
 }
 
 .types .item {
-    height: 115%;
+    padding: 35px 30px;
 }
 
 .types .text {
-    font: italic 15px Open Sans;
+    font-size: 15px;
 }
 
 .types {

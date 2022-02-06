@@ -1,8 +1,0 @@
-.information-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.information-2 img {
-    height: 400px;
-}

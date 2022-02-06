@@ -12,3 +12,7 @@
 .menu .icon:before {
     line-height: 1;
 }
+
+.menu .icon {
+    color: var(--text-color__bold);
+}

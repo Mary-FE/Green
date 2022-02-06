@@ -5,6 +5,10 @@
     --text-color__link: green;
     --text-color__individual: #cecee4;
 
+    --background__image: linear-gradient(#6ac17d, #9bf194);
+    --background__grape: linear-gradient(0deg, rgba(45,45,74,0.9), rgba(45,45,74,0.9));
+
+
     --background-button__dark: #6a6464;
     --background-transparent__hover: #292933;
     --background-hover__dark: #3c3c4b;
@@ -16,7 +20,7 @@
     --font-family__main: 'Open Sans', sans-serif;
     --font-family__icon: 'Icon Font';
    
-    --layout__width: 1200px;
+    --layout__width: 1140px;
        
     --h1-font__desktop: 700 72px/1.1 var(--font-family__main);
    /* ========================================================= */

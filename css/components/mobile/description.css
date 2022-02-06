@@ -28,7 +28,7 @@
 .description {
     position: relative;
     padding: 40px 0;
-    background-image: linear-gradient( 0deg, rgba(45,45,74,0.9), rgba(45,45,74,0.9)), url(../../../img/grape.jpg);
+    background-image: var(--background__grape), url(../../../img/grape.jpg);
 }
 
 .description:before {
@@ -38,5 +38,15 @@
     left: 0;
     right: 0;
     height: 170px;
-    background-image: linear-gradient(#6ac17d, #9bf194);
+    background-image: var(--background__image);
+}
+
+.description .object {
+    color: var(--text-color__button);
+}
+
+@media screen and (min-width: 480px) {
+    .description .box {
+        grid-template-columns: 1fr 1fr;
+    }
 }

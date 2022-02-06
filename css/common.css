@@ -6,7 +6,7 @@ body {
 /* =================================================== */
 /* Buttons */
 .button-transparent {
-    padding: 10px 40px;
+    padding: 10px 25px;
     
     color: var(--text-color__button);
     font: 14px/1.3 var(--font-family__main);
@@ -57,7 +57,7 @@ body {
 .icon { position: relative; }
 .icon:before { font-family: var(--font-family__icon); font-size: 24px; }
 
-._menu:before    { content: var(--icon-menu); color: var(--text-color__bold); }
+._menu:before    { content: var(--icon-menu); }
 ._tree:before    { content: var(--icon-tree); }
 ._leaf:before   { content: var(--icon-leaf); }
 ._organic:before   { content: var(--icon-organic); }
@@ -76,13 +76,14 @@ body {
 
 /* Links */
 a,
+.icon,
 a:before {
     font-weight: 400;
     transition: var(--common-animation);
-    cursor: pointer;
 }
 
-a:hover:before {
+.icon,
+a:hover {
     color: var(--text-color__link);
 }
 /* ===================================== */
@@ -91,4 +92,62 @@ a:hover:before {
     max-width: var(--layout__width);
     margin: 0 auto;
     padding: 0 30px;
+}
+
+/* ===================================== */
+/* Image with background                 */
+/* ===================================== */
+
+.backdrop {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.backdrop img {
+    padding: 25px 0 0 25px;
+    object-fit: cover;
+}
+
+.backdrop:before {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    right: 30px;
+    bottom: 30px;
+    left: 0;
+    z-index: -1;
+    
+    background-image: var(--background__image);
+}
+
+.backdrop .title {
+    position: absolute;
+    bottom: 15px;
+    right: -15px;
+    z-index: 2;
+    
+    padding: 6px 16px;
+    background-image: linear-gradient(#7dff99, #ffeb3b);
+}
+
+@media screen and (min-width: 1024px) {
+    .backdrop {
+        max-width: 100%;
+    }
+
+    .backdrop:before {
+        bottom: 80px;
+    }
+
+    .backdrop img {
+        padding: 45px 0 0 45px;
+    }
+
+    .backdrop .title {
+        right: -35px;
+        bottom: 30px;
+        font-size: 20px;
+    }
 }

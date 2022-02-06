@@ -1,8 +1,10 @@
-.information .image {
+.information img {
     height: 100%;
+    object-fit: cover;
 }
 
 .information .title {
+    max-width: 350px;
     font-size: 40px;
     line-height: 1;
 }
@@ -13,6 +15,10 @@
 
 .information {
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;   
+}
+
+.information .list {
+    max-width: 400px;
+    margin: 0 0 30px -15px;
 }

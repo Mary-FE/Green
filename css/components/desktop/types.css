@@ -7,10 +7,6 @@
     font-size: 25px;
 }
 
-.types .item {
-    padding: 35px 0;
-}
-
 .types .box {
     grid-gap: 30px;
 }
