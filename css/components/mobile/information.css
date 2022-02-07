@@ -1,23 +1,30 @@
+:root {
+    --image-team: url('../../../img/team.jpg');
+    --image-grass: url('../../../img/grass.jpg');
+    --image-child: url('../../../img/child.jpg');
+}
+
 .information .image {
-    background: center / cover no-repeat url(../../../img/team.jpg);
+    background: center / cover no-repeat var(--image-team);
+    min-height: 400px;
 }
 
 .information._grass .image {
-    background: center / cover no-repeat url(../../../img/grass.jpg);
+    background: center / cover no-repeat var(--image-grass);
 }
 
 .information._child .image {
-    background: center / cover no-repeat url(../../../img/child.jpg);
+    background: center / cover no-repeat var(--image-child);
 }
 
 .information .title {
     margin-bottom: 20px;
-    font: bold 25px Open Sans;
+    font: bold 25px 'Open Sans';
     color: var(--background-color__block);
 }
 
 .information {
-    background-image: linear-gradient(#6ac17d, #9bf194);
+    background-image: var(--background__image);
 }
 
 .information .text {

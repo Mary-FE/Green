@@ -13,8 +13,9 @@
 
 .recycling-info .group .name {
     margin-bottom: 10px;
+    
     color: var(--background-color__block);
-    font: bold 20px Open Sans;
+    font: bold 20px 'Open Sans';
     text-transform: uppercase;
 }
 

@@ -5,8 +5,7 @@
 
 .information .title {
     max-width: 350px;
-    font-size: 40px;
-    line-height: 1;
+    font: 40px/1 'Open Sans';
 }
 
 .information .text {

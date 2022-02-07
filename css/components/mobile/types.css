@@ -5,8 +5,9 @@
 .types .box {
     display: grid;
     grid-gap: 15px;
-    transform: translateY(-40px);
+
     text-align: center;
+    transform: translateY(-40px);
 }
 
 /* Three blocks */
@@ -17,12 +18,13 @@
 
 .types .text {
     margin-top: 10px;
-    font: italic 12px Open Sans;
+    font: italic 12px 'Open Sans';
 }
 
 .types .name {
     display: block;
     margin-top: 10px;
+    
     color: var(--text-color__bold);
     font-weight: bold;
     text-transform: uppercase;

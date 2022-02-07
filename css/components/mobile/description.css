@@ -1,3 +1,7 @@
+:root {
+    --image-grape: url('../../../img/grape.jpg');
+}
+
 .description .box {
     display: grid;
     grid-gap: 20px;
@@ -7,13 +11,13 @@
 .description .number {
     display: inline-block;
     margin: 15px 0;
+
     color: var(--text-color__bold);
-    font: bold 25px Open Sans;
+    font: bold 25px 'Open Sans';
     letter-spacing: 1.2px;
 }
 
 .description .item {
-    height: 100%;
     padding: 20px 15px;
     text-align: center;
     background-color: var(--background-color__block-light);
@@ -28,15 +32,17 @@
 .description {
     position: relative;
     padding: 40px 0;
-    background-image: var(--background__grape), url(../../../img/grape.jpg);
+    background-image: var(--background__grape), var(--image-grape);
 }
 
 .description:before {
     content: "" ;
+
     position: absolute;
     top: 0;
-    left: 0;
     right: 0;
+    left: 0;
+
     height: 170px;
     background-image: var(--background__image);
 }
